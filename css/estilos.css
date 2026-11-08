@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 30px 0;
+    background-image: url('../imgs/old_map.png');
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page {
+    width: 96%;
+    max-width: 1150px;
+    margin: 0 auto;
+    border: 4px solid #1c2024;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    background-color: #ffffff;
+}
+#header {
+    background-color: #2b3137;
+    padding: 12px 25px;
+}
+#header h1 {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+    background-image: url('../imgs/logo.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 65px;
+}
+#nav {
+    background-image: url('../imgs/red015.jpg');
+    padding: 22px 0;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#nav li {
+    display: inline-block;
+    margin: 0 12%;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: "Curier New", Courier, monospace;
+    font-size: 17px;
+    color: #c89666;
+}
+#nav a {
+    color: inherit;
+    text-decoration: none;
+}
+#contenidos {
+    background-image: url('../imgs/book.png');
+}
+#videos {
+    background-image: url('../imgs/film.png');
+}
+#contacto {
+    background-image: url('../imgs/mail.png');
+}
+#content {
+    background-image: url('../imgs/lgrey008.jpg');
+    padding: 30px 25px;
+    overflow: hidden;
+}
+.article {
+    float: left;
+    width: 30%;
+    min-height: 540px;
+    background-color: #ffffff;
+    padding: 20px 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+#article2 {
+    margin: 0 5%;
+}
+.article_header {
+    text-align: center;
+}
+.article_header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+.article_header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+    margin: 18px 0 12px 0;
+}
+.article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333333;
+    margin: 12px 0;
+}
+.article strong {
+    color: #000000;
+    font-weight: bold;
+}
+#footer {
+    clear: both;
+    background-color: #2b3137;
+    padding: 16px 10px;
+    text-align: center;
+}
+#footer p {
+    margin: 4px 0;
+    font-size: 11px;
+    color: #d1d5db;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer a {
+    color: #99ccff;
+    text-decoration: underline;
+}
